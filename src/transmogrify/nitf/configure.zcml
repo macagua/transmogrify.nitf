@@ -6,13 +6,6 @@
     xmlns:transmogrifier="http://namespaces.plone.org/transmogrifier"
     i18n_domain="transmogrify.nitf">
 
-  <browser:page
-    name="nitf-migrator"
-    for="Products.CMFPlone.interfaces.IPloneSiteRoot"
-    class=".migrator.NITFTransformView"
-    permission="cmf.ManagePortal"
-    />
-
   <includeDependencies package="." />
   <grok:grok package="." />
 
